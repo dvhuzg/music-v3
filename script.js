@@ -1,5 +1,5 @@
 if (Sonorous && Sonorous.isSupported()) {
-    const sonor = window.Sonorous.addSonor("https://dvhuzg.github.io/music-v2/music/enjoy.mp3");
+    const sonor = window.Sonorous.addSonor("https://dvhuzg.github.io/music-v3/music.mp3");
 
     const boombox = document.querySelector('.boombox');
     const playButton = document.querySelector('.play');
