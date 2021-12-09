@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Boombox - Music Player</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="boombox active">
+  <div class="head">
+    <div class="guitarInput"></div>
+    <div class="volumeContainer">
+      <input type="range" min="0" max="1" step="0.01" value=1" id="volume" />
+      <div class="dial"></div>
+      <div class="title">Volume</div>
+    </div>
+    <div class="controls">
+      <button class="play" />
+<!--       <button class="pause" />
+      <button class="stop" /> -->
+    </div>
+    <button class="power"/>        
+  </div>
+  <a class="logo" href="https://github.com/EkoLabs/sonorous" target="_blank">DoHung</a>
+  <div class="driver leftDriver"></div>
+  <div class="driver rightDriver"></div>
+</div>
+
+<!-- partial -->
+  <script src='https://eko.com/s/sonorous/Sonorous.min.gz.js'></script>
+<script src='https://eko.com/s/sonorous/demos/knob.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
